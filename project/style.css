@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body{
+  font-family: 'Amiri', serif;
+  background-color: #2E3440;
+  color: #D8DEE9;             
+  direction: rtl;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+.frame-box{
+  background-color: #3B4252;
+  border: 1.5px;
+  border-color:#434C5E;
+  max-width: 920px;
+  margin:auto;
+  margin-top: 80px;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+.frame-box h1,
+.frame-box h2 {
+  color: #81A1C1;
+  font-weight:bold;
+  font-size: 30px;
+}
+.lesson-divider {
+  border-top-width: 2px;
+  border-top-style: dashed;
+  border-top-color: #81A1C1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a {
+  text-decoration:none; 
+  color: #81A1C1;          
+}
