@@ -20,7 +20,6 @@ h2{
   border-radius: 8px;
   font-size: 24px;
 }
-
 .frame-box h1,
 .frame-box h2 {
   color: #81A1C1;
@@ -41,4 +40,20 @@ img{
 a {
   text-decoration:none; 
   color: #81A1C1;          
+}
+button {
+  font-size: 20px;
+  background-color: #434C5E;
+  color: #D8DEE9;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+}
+
+button:hover {
+  background-color: #e84200;
+}
+
+.main-box{
+    position: fixed;
 }
