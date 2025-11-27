@@ -1,59 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 
-body{
+body {
   font-family: 'Amiri', serif;
-  background-color: #2E3440;
-  color: #D8DEE9;             
+  background-color: #1C1F26;
+  color: #ECEFF4;
   direction: rtl;
 }
-h2{
-    text-align: center;
-    font-size: 24px;
+
+h2 {
+  text-align: center;
+  font-size: 24px;
 }
-.frame-box{
-  background-color: #3B4252;
-  border: 1.5px;
-  border-color:#434C5E;
+
+.frame-box {
+  background-color: #272B35;
+  border: 1.5px solid #3A3F4B;
   max-width: 920px;
-  margin:auto;
+  margin: auto;
   margin-top: 80px;
   border-radius: 8px;
   font-size: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
+
 .frame-box h1,
 .frame-box h2 {
-  color: #81A1C1;
-  font-weight:bold;
+  color: #7FB4FC;
+  font-weight: bold;
   font-size: 30px;
 }
+
 .lesson-divider {
   border-top-width: 2px;
   border-top-style: dashed;
-  border-top-color: #81A1C1;
+  border-top-color: #7FB4FC;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-img{
-    width: 100%;
-    height: auto;
+
+img {
+  width: 100%;
+  height: auto;
 }
+
 a {
-  text-decoration:none; 
-  color: #81A1C1;          
-}
-button {
-  font-size: 20px;
-  background-color: #434C5E;
-  color: #D8DEE9;
-  border-radius: 8px;
-  padding: 10px 20px;
-  border: none;
+  text-decoration: none;
+  color: #82CFFF;
+  transition: all 0.3s ease;
 }
 
-button:hover {
-  background-color: #e84200;
+a:hover {
+  color: #A6E0FF;
+  text-shadow: 0 0 6px #A6E0FF;
 }
 
-.main-box{
-    position: fixed;
+.main-box {
+  position: sticky;
+  display: flex;
+}
+
+.logo-img {
+  background-color: #D8DEE9;  /* Light Nord background */
+  width: 30%;
+  border-style: groove;
+  border-width: 20px;
+  border-radius: 6px;
+  border-color: #4C566A; /* Nord dark border */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
