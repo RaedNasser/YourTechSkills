@@ -20,7 +20,6 @@ h2 {
   margin-top: 80px;
   border-radius: 8px;
   font-size: 24px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .frame-box h1,
@@ -46,12 +45,10 @@ img {
 a {
   text-decoration: none;
   color: #82CFFF;
-  transition: all 0.3s ease;
 }
 
 a:hover {
   color: #A6E0FF;
-  text-shadow: 0 0 6px #A6E0FF;
 }
 
 .main-box {
