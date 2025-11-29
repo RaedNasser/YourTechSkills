@@ -4,68 +4,15 @@
   <meta charset="UTF-8">
   <title>اختبار تجريبي</title> 
    <style>
-       .main-menu{
+        
+        .main-menu{
             text-align: center;
             width: fit-content;
             position: fixed;
             top:0;
             right:0;
         }
-
-    .question {
-      border: 1px solid #434C5E;
-      margin-bottom: 20px;
-      padding: 10px;
-      text-align: right;
-      background-color: #2E3440;
-    }
-
-    .question-title {
-      color: #E5E9F0;
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    input[type="text"],
-    textarea,
-    select {
-      width: 90%;
-      padding: 5px;
-      margin-top: 8px;
-      border: 1px solid #999;
-      background-color: #3B4252;
-      color: #D8DEE9;
-    }
-
-    label {
-      display: block;
-      margin: 6px 0;
-    }
-
-    input[type="radio"],
-    input[type="checkbox"] {
-      margin-left: 6px;
-    }
-
-    /* أكبر حجم للأزرار */
-    .submit-btn,
-    .reset-btn {
-      background-color: #81A1C1;
-      color: #2E3440;
-      border: 1px solid #2E3440;
-      padding: 20px 60px;      /* أكبر طول وعرض */
-      font-size: 28px;         /* أكبر خط */
-      width: 260px;            /* عرض كبير */
-      margin: 30px 15px;       /* مسافة كبيرة */
-      cursor: pointer;
-    }
-
-    .submit-btn:hover,
-    .reset-btn:hover {
-      background-color: #A3BE8C;
-      color: #000;
-    }
-
+    
   </style>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -82,7 +29,7 @@
       </ul>
   <div class="frame-box" style="text-align: center;">
 
-    <h1>اختبار – Tech Skills for Beginners</h1>
+    <h1>اختبر مهاراتك التقنية </h1>
 
     <form>
 
@@ -90,23 +37,26 @@
         <legend class="question-title">1) ما هو نظام التشغيل الأكثر شيوعاً؟</legend>
         <label><input type="radio" name="q1"> Windows</label>
         <label><input type="radio" name="q1"> Linux</label>
-        <label><input type="radio" name="q1"> macOS</label>
+        <label><input type="radio" name="q1"> macOS</label> <br><br>
       </fieldset>
 
       <fieldset class="question">
         <legend class="question-title">2) مهارة البحث عبر الإنترنت تعني:</legend>
         <input type="text">
+        <br><br>
       </fieldset>
 
       <fieldset class="question">
         <legend class="question-title">3) صح أم خطأ: يجب أن تحتوي كلمة المرور على رموز.</legend>
         <label><input type="radio" name="q3"> صح</label>
         <label><input type="radio" name="q3"> خطأ</label>
+        <br><br>
       </fieldset>
 
       <fieldset class="question">
         <legend class="question-title">4) Google Drive يستخدم لتخزين الملفات في ________.</legend>
         <input type="text">
+        <br><br>
       </fieldset>
 
       <fieldset class="question">
@@ -117,6 +67,7 @@
           <option>Google Docs</option>
           <option>Notepad</option>
         </select>
+        <br><br>
       </fieldset>
 
       <fieldset class="question">
@@ -124,6 +75,7 @@
         <label><input type="checkbox" name="q6"> استخدام البريد الإلكتروني</label>
         <label><input type="checkbox" name="q6"> إنشاء حساب Google Drive</label>
         <label><input type="checkbox" name="q6"> تطوير ألعاب متقدمة</label>
+        <br><br>
       </fieldset>
 
       <button type="submit" class="submit-btn">Submit</button>
