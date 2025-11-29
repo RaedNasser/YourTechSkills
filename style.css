@@ -50,12 +50,6 @@ a {
 a:hover {
   color: #A6E0FF;
 }
-
-.main-box {
-  position: sticky;
-  display:flex;
-}
-
 .logo-img {
   background-color: #D8DEE9;
   width: 30%;
@@ -67,3 +61,4 @@ a:hover {
   margin-right: auto;
   margin-bottom: 20px;
 }
+
